@@ -46,3 +46,14 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | 5 | [Convertir a Números](./03-python-input-guia-completa.md#5-convertir-a-números) |
 | 6 | [Ejemplos Prácticos](./03-python-input-guia-completa.md#6-ejemplos-prácticos) |
 | 7 | [Resumen Rápido](./03-python-input-guia-completa.md#7-resumen-rápido) |
+
+---
+
+### [04 · Guía Completa de Tipos de Datos](./04-python-tipos-de-datos-guia-completa.md)
+
+| # | Tema |
+|---|------|
+| 1 | [Tipos Simples](./04-python-tipos-de-datos-guia-completa.md#1-tipos-simples) — `str`, `int`, `float`, `bool` |
+| 2 | [Colecciones](./04-python-tipos-de-datos-guia-completa.md#2-colecciones) — `list`, `tuple`, `dict`, `set` |
+| 3 | [Tabla Comparativa](./04-python-tipos-de-datos-guia-completa.md#3-tabla-comparativa) |
+| 4 | [Verificar el Tipo con `type()`](./04-python-tipos-de-datos-guia-completa.md#4-verificar-el-tipo-con-type) |
