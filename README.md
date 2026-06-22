@@ -65,7 +65,7 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | # | Tema |
 |---|------|
 | 1 | [¿Qué es una Variable?](./05-python-variables-guia-completa.md#1-qué-es-una-variable) |
-| 2 | [Reglas para Nombrar Variables](./05-python-variables-guia-completa.md#2-reglas-para-nombrar-variables) |
+| 2 | [Reglas para Nombrar Variables](./05-python-variables-guia-completa.md#2-reglas-para-nombrar-variables) — legibilidad, espacios, hispanismos, números, símbolos, palabras clave |
 | 3 | [Reasignar Variables](./05-python-variables-guia-completa.md#3-reasignar-variables) |
 | 4 | [Tipos de Datos en Variables](./05-python-variables-guia-completa.md#4-tipos-de-datos-en-variables) |
 | 5 | [Usar Variables con `print()`](./05-python-variables-guia-completa.md#5-usar-variables-con-print) |

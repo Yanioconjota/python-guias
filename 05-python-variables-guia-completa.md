@@ -49,6 +49,19 @@ True
 
 ## 2. Reglas para Nombrar Variables
 
+Existen convenciones y buenas prácticas asociadas al nombre de las variables creadas en Python. Tienen la intención de facilitar la **interpretabilidad** y el **mantenimiento** del código.
+
+### Las 6 reglas clave
+
+| # | Regla            | Descripción                                                                 |
+|---|------------------|-----------------------------------------------------------------------------|
+| 1 | **Legible**      | El nombre de la variable debe ser relevante según su contenido              |
+| 2 | **Unidad**       | No pueden existir espacios; usa guiones bajos para separar palabras         |
+| 3 | **Hispanismos**  | Omitir signos específicos del español: tildes (`á`, `é`) y la letra `ñ`    |
+| 4 | **Números**      | No deben empezar por número, aunque pueden contenerlos al final             |
+| 5 | **Símbolos**     | No incluir: `" ' , < > / ? \ ( ) ! @ # $ % ^ & * ~ - +`                   |
+| 6 | **Palabras clave** | No usar palabras reservadas por Python (`print`, `if`, `True`, `class`…) |
+
 ### Nombres válidos
 
 | Regla                            | Ejemplo                              |
@@ -65,6 +78,7 @@ True
 | ✗ Empezar con número             | `1nombre`, `2024_total` — Error      |
 | ✗ Espacios                       | `mi variable` — Usa: `mi_variable`   |
 | ✗ Caracteres especiales          | `precio$`, `nombre@` — Error         |
+| ✗ Hispanismos                    | `año`, `dirección`, `tamaño` — Evitar |
 | ✗ Palabras reservadas            | `print`, `True`, `if`, `class`       |
 
 ### Tabla rápida de referencia
@@ -75,8 +89,10 @@ True
 | `nombre_usuario` | ✓ Válido    | snake_case correcto             |
 | `_temporal`      | ✓ Válido    | Puede empezar con `_`           |
 | `usuario2`       | ✓ Válido    | Número al final OK              |
+| `anio`           | ✓ Válido    | Sin tilde (en lugar de `año`)   |
 | `2usuario`       | ✗ Inválido  | No puede empezar con número     |
 | `mi nombre`      | ✗ Inválido  | No puede tener espacios         |
+| `dirección`      | ✗ Evitar    | Contiene tilde                  |
 | `print`          | ✗ Inválido  | Es palabra reservada            |
 
 > ⚠️ **Python distingue mayúsculas:** `nombre`, `Nombre` y `NOMBRE` son tres variables diferentes. Por convención, usa minúsculas con guiones bajos: `mi_variable`.
