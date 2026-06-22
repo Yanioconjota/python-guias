@@ -57,3 +57,18 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | 2 | [Colecciones](./04-python-tipos-de-datos-guia-completa.md#2-colecciones) — `list`, `tuple`, `dict`, `set` |
 | 3 | [Tabla Comparativa](./04-python-tipos-de-datos-guia-completa.md#3-tabla-comparativa) |
 | 4 | [Verificar el Tipo con `type()`](./04-python-tipos-de-datos-guia-completa.md#4-verificar-el-tipo-con-type) |
+
+---
+
+### [05 · Guía Completa de Variables](./05-python-variables-guia-completa.md)
+
+| # | Tema |
+|---|------|
+| 1 | [¿Qué es una Variable?](./05-python-variables-guia-completa.md#1-qué-es-una-variable) |
+| 2 | [Reglas para Nombrar Variables](./05-python-variables-guia-completa.md#2-reglas-para-nombrar-variables) |
+| 3 | [Reasignar Variables](./05-python-variables-guia-completa.md#3-reasignar-variables) |
+| 4 | [Tipos de Datos en Variables](./05-python-variables-guia-completa.md#4-tipos-de-datos-en-variables) |
+| 5 | [Usar Variables con `print()`](./05-python-variables-guia-completa.md#5-usar-variables-con-print) |
+| 6 | [Operaciones con Variables](./05-python-variables-guia-completa.md#6-operaciones-con-variables) |
+| 7 | [Múltiples Variables](./05-python-variables-guia-completa.md#7-múltiples-variables) |
+| 8 | [Resumen](./05-python-variables-guia-completa.md#8-resumen) |
