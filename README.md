@@ -72,3 +72,19 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | 6 | [Operaciones con Variables](./05-python-variables-guia-completa.md#6-operaciones-con-variables) |
 | 7 | [Múltiples Variables](./05-python-variables-guia-completa.md#7-múltiples-variables) |
 | 8 | [Resumen](./05-python-variables-guia-completa.md#8-resumen) |
+
+---
+
+### [06 · Guía Completa de Integers y Floats](./06-python-int-float-guia-completa.md)
+
+| # | Tema |
+|---|------|
+| 1 | [Los Dos Tipos de Números](./06-python-int-float-guia-completa.md#1-los-dos-tipos-de-números) — `int` vs `float` |
+| 2 | [Operaciones Básicas](./06-python-int-float-guia-completa.md#2-operaciones-básicas) — `+`, `-`, `*`, `/` |
+| 3 | [Operaciones Especiales](./06-python-int-float-guia-completa.md#3-operaciones-especiales) — `//`, `%`, `**` |
+| 4 | [Mezclar `int` y `float`](./06-python-int-float-guia-completa.md#4-mezclar-int-y-float) |
+| 5 | [Convertir entre Tipos](./06-python-int-float-guia-completa.md#5-convertir-entre-tipos) — `int()`, `float()` |
+| 6 | [Redondear Números](./06-python-int-float-guia-completa.md#6-redondear-números) — `round()` |
+| 7 | [Números Grandes y Pequeños](./06-python-int-float-guia-completa.md#7-números-grandes-y-pequeños) |
+| 8 | [Errores Comunes](./06-python-int-float-guia-completa.md#8-errores-comunes) |
+| 9 | [Resumen — Cheatsheet](./06-python-int-float-guia-completa.md#9-resumen--cheatsheet-de-números) |
