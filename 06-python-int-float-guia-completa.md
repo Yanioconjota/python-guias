@@ -199,28 +199,42 @@ precio = float(input("Precio: "))
 
 ## 6. Redondear Números
 
-### La función `round()`
+El redondeo facilita la interpretación de los valores calculados al limitar la cantidad de decimales que se muestran en pantalla. También permite aproximar valores decimales al entero más próximo.
 
-Redondea un float al número de decimales que indiques.
+### Sintaxis de `round()`
+
+```
+round(number, ndigits)
+         │         └── cantidad de decimales (si se omite, el resultado es entero)
+         └── valor a redondear
+```
+
+| Parámetro  | Descripción                                              |
+|------------|----------------------------------------------------------|
+| `number`   | El valor a redondear                                     |
+| `ndigits`  | Cantidad de decimales. Si se omite, devuelve un entero   |
+
+### Ejemplos de uso
 
 ```python
-# Redondear al entero más cercano
-print(round(3.7))     # 4
-print(round(3.2))     # 3
-print(round(3.5))     # 4
+# Sin ndigits → resultado entero
+print(round(100/3))       # → 33
+print(round(3.7))         # → 4
+print(round(3.2))         # → 3
 
-# Redondear a N decimales
-print(round(3.14159, 2))  # 3.14
-print(round(3.14159, 3))  # 3.142
-print(round(3.14159, 4))  # 3.1416
+# Con ndigits → resultado con N decimales
+print(round(12/7, 2))     # → 1.71
+print(round(3.14159, 2))  # → 3.14
+print(round(3.14159, 3))  # → 3.142
+print(round(3.14159, 4))  # → 3.1416
 
 # Ejemplo práctico: precios
 precio = 19.99
 impuesto = precio * 0.16
-print(round(impuesto, 2))  # 3.2
+print(round(impuesto, 2)) # → 3.2
 ```
 
-> 💡 **`round()` vs `int()`:** `round(3.7)` da `4` (redondea). `int(3.7)` da `3` (trunca). Round aproxima al más cercano, `int` simplemente corta los decimales.
+> 💡 **`round()` vs `int()`:** `round(3.7)` da `4` (redondea al más cercano). `int(3.7)` da `3` (trunca, simplemente corta los decimales).
 
 ---
 

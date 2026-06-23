@@ -85,7 +85,7 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | 3 | [Operaciones Especiales](./06-python-int-float-guia-completa.md#3-operaciones-especiales) — `//`, `%`, `**` |
 | 4 | [Mezclar `int` y `float`](./06-python-int-float-guia-completa.md#4-mezclar-int-y-float) |
 | 5 | [Convertir entre Tipos](./06-python-int-float-guia-completa.md#5-convertir-entre-tipos) — `int()`, `float()` |
-| 6 | [Redondear Números](./06-python-int-float-guia-completa.md#6-redondear-números) — `round()` |
+| 6 | [Redondear Números](./06-python-int-float-guia-completa.md#6-redondear-números) — `round(number, ndigits)`, entero vs decimal |
 | 7 | [Números Grandes y Pequeños](./06-python-int-float-guia-completa.md#7-números-grandes-y-pequeños) |
 | 8 | [Errores Comunes](./06-python-int-float-guia-completa.md#8-errores-comunes) |
 | 9 | [Resumen — Cheatsheet](./06-python-int-float-guia-completa.md#9-resumen--cheatsheet-de-números) |
