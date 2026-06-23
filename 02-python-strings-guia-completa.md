@@ -324,6 +324,72 @@ print(len(""))
 
 ---
 
+## 10. Formatear Cadenas
+
+Para facilitar la concatenación de variables y texto en Python, contamos con dos herramientas que nos evitan manipular las variables para incorporarlas directamente al texto.
+
+### Función `.format()`
+
+Se encierran las posiciones de las variables entre llaves `{}`, y a continuación del string se llama a las variables con `.format()`.
+
+```python
+color_auto = "rojo"
+matricula = "ABC 123"
+
+print("Mi auto es {} y de matrícula {}".format(color_auto, matricula))
+# → Mi auto es rojo y de matrícula ABC 123
+```
+
+También puedes usar índices o nombres dentro de las llaves para mayor claridad:
+
+```python
+# Con índices
+print("El {0} cuesta ${1} y el {0} es bueno".format("producto", 99))
+# → El producto cuesta $99 y el producto es bueno
+
+# Con nombres
+print("Hola, {nombre}. Tienes {edad} años.".format(nombre="Ana", edad=30))
+# → Hola, Ana. Tienes 30 años.
+```
+
+### Cadenas literales — f-strings
+
+A partir de Python 3.8, puedes anticipar la concatenación de variables anteponiendo `f` al string y escribiendo las variables directamente dentro de `{}`.
+
+```python
+color_auto = "rojo"
+matricula = "ABC 123"
+
+print(f"Mi auto es {color_auto} y de matrícula {matricula}")
+# → Mi auto es rojo y de matrícula ABC 123
+```
+
+Las f-strings también admiten expresiones dentro de las llaves:
+
+```python
+nombre = "Carlos"
+edad = 25
+
+print(f"Hola, {nombre}. El año que viene tendrás {edad + 1} años.")
+# → Hola, Carlos. El año que viene tendrás 26 años.
+
+precio = 19.99
+print(f"Total con IVA: ${precio * 1.21:.2f}")
+# → Total con IVA: $24.19
+```
+
+### Comparativa
+
+| Método         | Sintaxis                                      | Disponible desde |
+|----------------|-----------------------------------------------|------------------|
+| Concatenación  | `"Hola " + nombre`                            | Siempre          |
+| `.format()`    | `"Hola {}".format(nombre)`                    | Python 2.6+      |
+| f-string       | `f"Hola {nombre}"`                            | Python 3.6+      |
+
+> 💡 **¿Cuál usar?** Las **f-strings** son la forma moderna y recomendada: más cortas, legibles y rápidas. Usa `.format()` solo si necesitas compatibilidad con versiones antiguas de Python.
+
+---
+
 ## Resumen General
 
 | Operación           | Sintaxis                  | Ejemplo                          |
@@ -336,3 +402,5 @@ print(len(""))
 | Índice negativo     | `str[-i]`                 | `"Python"[-1]` → `"n"`          |
 | Slicing             | `str[a:b]`                | `"Python"[1:4]` → `"yth"`       |
 | Longitud            | `len(str)`                | `len("Hola")` → `4`             |
+| format()            | `"Hola {}".format(var)`   | `"Mi auto es rojo"`              |
+| f-string            | `f"Hola {var}"`           | `"Mi auto es rojo"`              |

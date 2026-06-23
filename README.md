@@ -32,6 +32,7 @@ Colección de guías de referencia rápida para aprender Python desde cero.
 | 7 | [Acceder a Caracteres](./02-python-strings-guia-completa.md#7-acceder-a-caracteres) |
 | 8 | [Extraer Partes (Slicing)](./02-python-strings-guia-completa.md#8-extraer-partes-slicing) |
 | 9 | [Longitud de un String](./02-python-strings-guia-completa.md#9-longitud-de-un-string) |
+| 10 | [Formatear Cadenas](./02-python-strings-guia-completa.md#10-formatear-cadenas) — `.format()` y f-strings |
 
 ---
 
