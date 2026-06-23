@@ -205,6 +205,36 @@ cien <class 'str'>
 True <class 'bool'>
 ```
 
+### Conversiones de tipos
+
+Python realiza **conversiones implícitas** de tipos de datos automáticamente para operar con valores numéricos. En otros casos, necesitaremos generar una conversión de manera **explícita**.
+
+| Función      | Resultado         | Descripción                  |
+|--------------|-------------------|------------------------------|
+| `int(var)`   | `<class 'int'>`   | Convierte el dato en integer |
+| `float(var)` | `<class 'float'>` | Convierte el dato en float   |
+
+```python
+# Conversión explícita a int
+precio_texto = "250"
+precio = int(precio_texto)
+print(precio, type(precio))
+# → 250 <class 'int'>
+
+# Conversión explícita a float
+temperatura_texto = "36.5"
+temperatura = float(temperatura_texto)
+print(temperatura, type(temperatura))
+# → 36.5 <class 'float'>
+
+# Conversión implícita (Python lo hace solo)
+resultado = 10 + 5.0        # int + float → float automáticamente
+print(resultado, type(resultado))
+# → 15.0 <class 'float'>
+```
+
+> ⚠️ No todos los valores se pueden convertir. `int("hola")` lanza un `ValueError`. Solo funciona si el string contiene un número válido.
+
 ---
 
 ## 5. Usar Variables con `print()`
